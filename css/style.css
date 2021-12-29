@@ -13,6 +13,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+body {
+  background-color: #0f1424;
+}
+
 .container {
   width: 88%;
   margin: 2rem auto;
@@ -305,6 +309,18 @@ body {
 }
 
 @media screen and (min-width: 1140px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+  }
   .container {
     width: 77%;
     -ms-grid-columns: 23% 23% 23% 23%;
@@ -331,6 +347,33 @@ body {
   }
   .menu-card .card-report img {
     width: 8.4rem;
+  }
+  .menu-card .card-report .report {
+    margin-top: 1.0rem;
+  }
+  .menu-card .card-report .report .name {
+    font-size: 4rem;
+  }
+  .menu-card .menu {
+    height: 30%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .regular-card .property-card {
+    margin-top: 4.5rem;
+    padding: 2.8rem;
+  }
+  .regular-card .property-card .row-2 .hours {
+    font-size: 5.5rem;
+    padding-top: 1.9rem;
+  }
+  .regular-card .property-card .row-2 .description {
+    padding-top: 1.0rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

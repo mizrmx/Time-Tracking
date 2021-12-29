@@ -1,4 +1,12 @@
 @media screen and (min-width: 1140px) {
+    body 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
     .container 
     {
         width: 77%;
@@ -22,6 +30,45 @@
             img 
             {
                width: 8.4rem; 
+            }
+
+            .report 
+            {
+                margin-top: 1.0rem;
+
+                .name 
+                {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        .menu 
+        {
+            height: 30%;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    .regular-card 
+    {
+        .property-card {
+            margin-top: 4.5rem;
+            padding: 2.8rem;
+
+            .row-2
+            {
+                .hours 
+                {
+                    font-size: 5.5rem;
+                    padding-top: 1.9rem;
+                }
+
+                .description 
+                {
+                    padding-top: 1.0rem;
+                }
             }
         }
     }
