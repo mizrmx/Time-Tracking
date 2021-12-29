@@ -88,8 +88,8 @@ function createRegularCard(element, timeframe) {
         </div>
 
         <div class="row-2">
-          <div class="hours">${current} hrs</div>
-          <div class="description">${timeframeMsg[timeframe]} - ${previous}</div>
+          <div class="hours">${current}hrs</div>
+          <div class="description">${timeframeMsg[timeframe]} - ${previous}hrs</div>
         </div>
       </div>
     </div> `
